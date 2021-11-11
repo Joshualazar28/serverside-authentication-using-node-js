@@ -1,0 +1,20 @@
+{
+  "name": "server-auth",
+  "version": "1.0.0",
+  "description": "serverside authentication using node js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "joshua lazar",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15"
+  }
+}
